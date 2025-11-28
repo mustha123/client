@@ -86,7 +86,7 @@ export default function Addproduct() {
                         <TextField varient='outlined' label='Product Descriprition'onChange={handleChange}  name='pdesc' type='text' fullWidth sx={{mb:3}}/>
                         
                         <TextField variant='outlined' label='Product Price' onChange={handleChange}  name='pprice' type='number' fullWidth sx={{mb:3}}/>
-                        <TextField variant='outlined' label='Product Price' onChange={handleChange}  name='pimage' type='file'  InputLabelProps={{shrink:true}} fullWidth sx={{mb:3}}/>
+                        <TextField variant='outlined' label='Product image' onChange={handleChange}  name='pimage' type='file'  InputLabelProps={{shrink:true}} fullWidth sx={{mb:3}}/>
 {/* <Button sx={{mb:2}}
   component="label"
   role={undefined}
